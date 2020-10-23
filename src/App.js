@@ -1,12 +1,8 @@
 import React, { useRef, useState, useMemo } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
 import * as THREE from "three";
-import one from "./assets/one.png";
-import two from "./assets/two.png";
-import three from "./assets/three.png";
-import four from "./assets/four.png";
+
 import five from "./assets/five.png";
-import six from "./assets/six.png";
 
 const Box = (props) => {
   // This reference will give us direct access to the mesh
